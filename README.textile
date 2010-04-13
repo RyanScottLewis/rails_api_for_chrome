@@ -3,6 +3,7 @@ h1. RailsAPI Extension
 p. This extension simply puts a badge on the Google Chrome toolbar that displays all of the SDocs you've downloaded
 
 h2. Install
+
 p..
 Clone or fork this project.
 Navigate to "railsapi.com":http://railsapi.com/ and select "Build your own package"
@@ -13,6 +14,7 @@ Modify line 401 of /doc/js/searchdoc.js to look like so:
     401     // this.frame.location.href = '../' + src;
     402     chrome.tabs.create({url : '../' + src}); // Add this under line 401
 @
+
 p..
 Now open up Google Chrome and navigate to "chrome://extensions/":chrome://extensions/
 Click 'Developer mode' to view the developer tools
