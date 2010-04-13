@@ -1,4 +1,5 @@
 h1. RailsAPI Extension
+
 p. This extension simply puts a badge on the Google Chrome toolbar that displays all of the SDocs you've downloaded
 
 h2. Install
