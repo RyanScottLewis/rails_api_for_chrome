@@ -4,19 +4,17 @@ p. This extension simply puts a badge on the Google Chrome toolbar that displays
 
 h2. Install
 
-p..
-Clone or fork this project.
-Navigate to "railsapi.com":http://railsapi.com/ and select "Build your own package"
-Select the packages you want included in your SDocs and click "Download"
-Unzip the downloaded file and extract to /doc in your project directory
-Modify line 401 of /doc/js/searchdoc.js to look like so:
+* Clone or fork this project.
+* Navigate to "railsapi.com":http://railsapi.com/ and select "Build your own package"
+* Select the packages you want included in your SDocs and click "Download"
+* Unzip the downloaded file and extract to /doc in your project directory
+* Modify line 401 of /doc/js/searchdoc.js to look like so:
 @
     401     // this.frame.location.href = '../' + src;
     402     chrome.tabs.create({url : '../' + src}); // Add this under line 401
 @
 
-p..
-Now open up Google Chrome and navigate to "chrome://extensions/":chrome://extensions/
-Click 'Developer mode' to view the developer tools
-Click 'Load unpacked extension...' and select your project directory
-You can build your extension so it loads every time you load Chrome by clicking 'Pack extension...'
+* Now open up Google Chrome and navigate to "chrome://extensions/":chrome://extensions/
+* Click 'Developer mode' to view the developer tools
+* Click 'Load unpacked extension...' and select your project directory
+* You can build your extension so it loads every time you load Chrome by clicking 'Pack extension...'
