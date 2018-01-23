@@ -2,6 +2,12 @@ h1. RailsAPI Extension
 
 p. This extension simply puts a badge on the Google Chrome toolbar that displays all of the SDocs you've downloaded
 
+h2. NOTICE
+
+This library is DEFUNCT as railsapi.com no longer exists.
+
+This project is kept up only for archival and reference purposes. 
+
 h2. Install
 
 * Clone or fork this project
